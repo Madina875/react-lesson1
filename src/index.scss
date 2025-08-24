@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  height: 100%;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  // border: 1px solid red;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+hr {
+  border: none;
+  background-color: #979092;
+  height: 1px;
+}
+
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+input,
+button,
+select,
+textarea {
+  outline: none;
+  border: none;
+}

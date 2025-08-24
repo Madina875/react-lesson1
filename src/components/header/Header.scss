@@ -1,0 +1,32 @@
+.header {
+  margin-top: 20px;
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    // border: 1px solid red;
+    a {
+      font-size: x-large;
+      font-weight: 700;
+    }
+    &-bottom {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 40px;
+        li {
+          font-weight: 500;
+          font-size: larger;
+        }
+      }
+    }
+  }
+}

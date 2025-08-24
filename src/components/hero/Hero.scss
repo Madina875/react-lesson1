@@ -1,0 +1,98 @@
+.hero {
+  .hero-wrapper {
+    background: white;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4%;
+
+    &__left {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10%;
+      flex: 50%;
+      a {
+        font-size: 80px;
+        display: block;
+        font-weight: 600;
+        color: #ff8a56;
+      }
+      @media (max-width: 890px) {
+        a {
+          font-size: 40px;
+          display: block;
+          text-align: center;
+          font-weight: 500;
+          color: #ff8a56;
+        }
+      }
+      p {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        font-size: 22px;
+        color: #666666;
+      }
+      @media (max-width: 890px) {
+        p {
+          text-align: center;
+        }
+      }
+
+      span {
+        font-size: 79px;
+        font-weight: 600;
+      }
+      @media (max-width: 890px) {
+        span {
+          font-size: 39px;
+          display: block;
+          text-align: center;
+          font-weight: 500;
+        }
+      }
+      &-btns {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .hero__btn {
+          padding: 5%;
+          max-width: 30%;
+          color: white;
+          background: black;
+          font-size: 15px;
+          text-align: center;
+          letter-spacing: 2px;
+        }
+        .hero__btn:last-child {
+          gap: 6%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: white;
+          color: black;
+        }
+      }
+      @media (max-width: 1000px) {
+        .hero-wrapper__left-btns {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+    &__right {
+      flex: 50%;
+      img {
+        object-fit: cover;
+      }
+    }
+  }
+  @media (max-width: 920px) {
+    .hero-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+// text ni ham otraga sur 880 da
