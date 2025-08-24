@@ -1,4 +1,4 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Menu } from "lucide-react";
 import "./Header.scss";
 
 const Header = () => {
@@ -16,6 +16,7 @@ const Header = () => {
               <li>Book a call </li>
             </ul>
             <ArrowRight />
+            <Menu className="my-menu" />
           </div>
         </nav>
       </div>

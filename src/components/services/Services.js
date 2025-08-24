@@ -1,4 +1,5 @@
 import "./Services.scss";
+import img1 from "../../assets/IMAGE (2).svg";
 
 const Services = () => {
   return (
@@ -12,7 +13,36 @@ const Services = () => {
           <div className="services-wrapper__bottom">
             <div className="services-cards">
               <div className="services-cards__card">
-                {/* <img src={img1} alt="card-img" /> */}
+                <img src={img1} alt="card-img" />
+                <h3>What I can do for you</h3>
+
+                <p>
+                  Faster, better products that your users love. Here's all the
+                  services I provide:
+                </p>
+                <ul>
+                  <li>Design Strategy</li>
+                  <li>Web and Mobile app Design</li>
+                  <li>Front-end Development</li>
+                </ul>
+              </div>{" "}
+              <div className="services-cards__card">
+                <img src={img1} alt="card-img" />
+                <h3>What I can do for you</h3>
+
+                <p>
+                  Faster, better products that your users love. Here's all the
+                  services I provide:
+                </p>
+                <ul>
+                  <li>Design Strategy</li>
+                  <li>Web and Mobile app Design</li>
+                  <li>Front-end Development</li>
+                </ul>
+              </div>{" "}
+              <div className="services-cards__card">
+                <img src={img1} alt="card-img" />
+                <h3>What I can do for you</h3>
                 <p>
                   Faster, better products that your users love. Here's all the
                   services I provide:

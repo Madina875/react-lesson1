@@ -6,7 +6,6 @@
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    // border: 1px solid red;
     a {
       font-size: x-large;
       font-weight: 700;
@@ -17,6 +16,15 @@
       justify-content: space-between;
       align-items: center;
       gap: 8px;
+      .my-menu {
+        display: none;
+      }
+      @media (max-width: 850px) {
+        .my-menu {
+          display: flex;
+          color: black;
+        }
+      }
       ul {
         display: flex;
         flex-direction: row;
@@ -26,6 +34,9 @@
           font-weight: 500;
           font-size: larger;
         }
+      }
+      @media (max-width: 850px) {
+        display: none;
       }
     }
   }
