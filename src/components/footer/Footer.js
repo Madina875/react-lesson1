@@ -5,7 +5,7 @@ const Footer = () => {
     <section className="footer">
       <div className="container">
         <div className="footer-wrapper">
-          <h2>Footer</h2>
+          {/* <h2>Footer</h2> */}
         </div>
       </div>
     </section>

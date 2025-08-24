@@ -5,7 +5,7 @@ const Testimonials = () => {
     <section className="testimonials">
       <div className="container">
         <div className="testimonials-wrapper">
-          <h2>Testimonials</h2>
+          {/* <h2>Testimonials</h2> */}
         </div>
       </div>
     </section>
