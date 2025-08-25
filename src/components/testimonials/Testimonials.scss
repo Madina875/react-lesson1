@@ -1,0 +1,117 @@
+.testimonials {
+  &-wrapper {
+    padding-left: 6%;
+    padding-bottom: 15%;
+    @media (max-width: 600px) {
+      margin-top: 33%;
+    }
+    @media (max-width: 400px) {
+      margin-top: 53%;
+    }
+
+    &__head {
+      padding-top: 5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h2 {
+        padding-bottom: 1%;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: large;
+        color: #4353ff;
+      }
+      p {
+        font-size: 50px;
+        letter-spacing: 4px;
+        font-weight: 700;
+        padding-bottom: 4%;
+        @media (max-width: 1095px) {
+          font-size: 30px;
+        }
+        @media (max-width: 600px) {
+          font-size: 20px;
+        }
+      }
+    }
+    &__bottom {
+      display: flex;
+      flex-direction: row;
+      @media (max-width: 600px) {
+        flex-direction: column;
+      }
+      &-left {
+        flex: 50%;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      &-right {
+        padding: 0 10%;
+        width: 100%;
+        flex: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+
+        img {
+          width: 15%;
+          height: 15%;
+          margin-bottom: -10%;
+          @media (max-width: 600px) {
+            padding-bottom: 12%;
+            width: 5%;
+            height: 5%;
+          }
+        }
+        p {
+          font-size: 40px;
+          font-weight: 600;
+          @media (max-width: 1380px) {
+            font-size: 30px;
+          }
+          @media (max-width: 1095px) {
+            font-size: 20px;
+          }
+          @media (max-width: 775px) {
+            font-size: 15px;
+          }
+        }
+
+        div {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          div {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            span {
+              font-weight: 600;
+            }
+            @media (max-width: 775px) {
+              font-size: 5px;
+            }
+            p {
+              font-size: large;
+              font-weight: 500;
+            }
+            @media (max-width: 775px) {
+              font-size: 10px;
+            }
+          }
+          button {
+            width: 20%;
+            background: black;
+            .te-btns {
+              width: 70%;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
